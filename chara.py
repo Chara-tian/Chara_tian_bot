@@ -3,6 +3,8 @@ import requests
 import datetime
 from aiogram import Bot, Dispatcher, executor, types
 
+# this is teacher line
+
 weather_token = "6e8d79779a0c362f14c60a1c7f363e29"
 API_TOKEN = '6156252770:AAEo3TMNCMp96ZCf06Xt1UkQ25xKaiDZJZQ'
 
