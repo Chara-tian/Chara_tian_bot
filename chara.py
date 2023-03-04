@@ -1,9 +1,9 @@
+#git config --global user.name "FIRST_NAME LAST_NAME"
+#git config --global user.email "MY_NAME@example.com"
 import logging
 import requests
 import datetime
 from aiogram import Bot, Dispatcher, executor, types
-
-# this is teacher line
 
 weather_token = "6e8d79779a0c362f14c60a1c7f363e29"
 API_TOKEN = '6156252770:AAEo3TMNCMp96ZCf06Xt1UkQ25xKaiDZJZQ'
@@ -79,11 +79,12 @@ async def name_city(message: types.Message):
     await message.reply("Ноель и Сьюзи канон!")
     await message.reply("Пошли поедим мел")
     await message.reply("Мммм ирисково-коричный пирог...")
-    await message.reply("Блин я в клетке((")
+    await message.reply("Блин я в клетке(((")
     await message.reply("Когда новая глaва?")
     await message.reply("Лол это ловушка?")
     await message.reply("Крис положи нож на место 0_0")
     await message.reply("So, I'm with you in the dark...")
+    await message.reply("Dont forget")
 
 if __name__ == '__main__':
     executor.start_polling(dp, skip_updates=True)
